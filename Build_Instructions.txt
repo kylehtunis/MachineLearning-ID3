@@ -1,0 +1,9 @@
+Build instructions:
+
+make or make all will make all necessary object files as well as knn.exe, NaiveBayes.exe, and ID3.exe
+
+make knn, make nb, and make id3 will only make the object files and the specified executable
+
+make depend will make the dependency file (although this is not a necessary command to run)
+
+make clean will remove all executables, object files, and the Makefile.dep
